@@ -1094,6 +1094,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1409,7 +1410,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BlocksKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "BlocksKit/Module-iOS.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.BlocksKit;
@@ -1430,7 +1431,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BlocksKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "BlocksKit/Module-iOS.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.BlocksKit;
@@ -1446,7 +1447,7 @@
 			baseConfigurationReference = DB4CA4021B3A6450004B70F8 /* iOS-Test.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.BlocksKitTests;
 				PRODUCT_NAME = BlocksKitTests;
@@ -1460,7 +1461,7 @@
 			baseConfigurationReference = DB4CA4021B3A6450004B70F8 /* iOS-Test.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.BlocksKitTests;
 				PRODUCT_NAME = BlocksKitTests;
@@ -1483,7 +1484,7 @@
 				INFOPLIST_FILE = BlocksKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MODULEMAP_FILE = "BlocksKit/Module-Mac.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.BlocksKit;
 				PRODUCT_NAME = BlocksKit;
@@ -1506,7 +1507,7 @@
 				INFOPLIST_FILE = BlocksKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MODULEMAP_FILE = "BlocksKit/Module-Mac.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.BlocksKit;
 				PRODUCT_NAME = BlocksKit;
@@ -1522,7 +1523,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.BlocksKitTests;
 				PRODUCT_NAME = BlocksKitTests;
 				SDKROOT = macosx;
@@ -1536,7 +1537,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.BlocksKitTests;
 				PRODUCT_NAME = BlocksKitTests;
 				SDKROOT = macosx;
@@ -1547,6 +1548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB4CA3FC1B3A624B004B70F8 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MODULEMAP_FILE = "BlocksKit/Module-iOS.modulemap";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.BlocksKit;
@@ -1561,6 +1563,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB4CA3FC1B3A624B004B70F8 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MODULEMAP_FILE = "BlocksKit/Module-iOS.modulemap";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.BlocksKit;
